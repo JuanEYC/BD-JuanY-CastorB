@@ -1,0 +1,20 @@
+API elaborada por: Juan Yánez y Cástor Barrios
+
+El archivo "requests.hhtp" es una extensión en vscode que se utiliza para enviar las 
+solicitudes (requests) que queremos hacer, es por así decirlo como Postman. Para esta base de datos se requiere 
+que se instale dicha extensión y para eso nos vamos a extensiones y buscamos "REST Client", le damos a install y
+eso sería todo. 
+
+Pasos para inicializar el servidor:
+
+1. Crear terminal.
+2. Escribir en la terminal "npm run start" y darle Enter.
+3. Ya estaría iniciado el servidor. 
+
+Pasos para probar el CRUD:
+
+1. Vamos a requests.http.
+2. Damos en "send requests" ya sea para crear, encontrar todos los estudiantes, encontrar un estudiante, actualizar
+y eliminar (en los casos de crear ponemos los datos que queramos y en actualizar reemplazamos los datos que
+queremos cambiar agregando la id del estudiante en la URL. En encontrar un estudiantes también tenemos 
+que añadir la id en la URL).

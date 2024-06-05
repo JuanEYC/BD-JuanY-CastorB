@@ -1,0 +1,68 @@
+###
+POST http://localhost:5000/api/student HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Luis Diaz",
+    "age": 24,
+    "email": "luzzzD@email.com",
+    "carrer": "TCU Turismo",
+    "grade": 4,
+    "phone": "04167840234",
+    "subjects":{
+        "nameSubject":[
+            "Matematica",
+            "Fisica",
+            "Quimica",
+            "Ingles"
+        ],
+        "teachersSubjects":[
+            "José Lopez",
+            "Miguel Reyes",
+            "Wilman Flores",
+            "Juan Yanez"
+        ]
+            
+        
+    }
+
+}
+
+###
+GET http://localhost:5000/api/student HTTP/1.1
+
+###
+GET http://localhost:5000/api/student/665ca5a6186a6f27050e33ef HTTP/1.1
+
+###
+PUT http://localhost:5000/api/student/665ca5a6186a6f27050e33ef HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Luis Diaz",
+    "age": 24,
+    "email": "luzzzD@email.com",
+    "carrer": "TCU Turismo",
+    "grade": 4,
+    "phone": "04167840234",
+    "subjects":{
+        "nameSubject":[
+            "Matematica",
+            "Fisica",
+            "Quimica",
+            "Ingles"
+        ],
+        "teachersSubjects":[
+            "José Lopez",
+            "Miguel Reyes",
+            "Wilman Flores",
+            "Juan Yanez"
+        ]
+            
+        
+    }
+
+}
+
+###
+DELETE http://localhost:5000/api/student/665cbb1678b81c94e89130f7 HTTP/1.1
